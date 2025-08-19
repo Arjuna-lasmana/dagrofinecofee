@@ -1,0 +1,900 @@
+{
+    "espressoBased" : [
+        {
+            "id" : 1,
+            "name" : "Picollo Latte",
+            "img" : "../assets/Picollo-Latte.jpg",
+            "highlight" : "",
+            "description" : "Picollo Latte is a smaller, more concentrated version of a tradisional latte, offering a rich coffee flavor with a silky texture.",
+            "priceH" : 32000,
+            "priceC" : "",
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 2,
+            "name" : "Espresso (Single Shot)",
+            "img" : "../assets/espresso.jpg",
+            "highlight" : "",
+            "description" : "Espresso is a strong, concentrated coffee brewed by forcing hot water through finely-ground coffee beans at high pressure.",
+            "priceH" : 25000,
+            "priceC" : "",
+            "priceShow" : "Rp25K"
+        },
+        {
+            "id" : 3,
+            "name" : "Doppio (Double Shot)",
+            "img" : "../assets/doppio.jpg",
+            "highlight" : "",
+            "description" : "Doppio is aterm used a double shot of espresso.",
+            "priceH" : 30000,
+            "priceC" : "",
+            "priceShow" : "Rp30K"
+        },
+        {
+            "id" : 4,
+            "name" : "Americano",
+            "img" : "../assets/americano.jpg",
+            "highlight" : "",
+            "description" : "Americano is a coffee drink made by diluting espresso with hot water.",
+            "priceH" : 32000,
+            "priceC" : 37000,
+            "priceShow" : "Rp32K - 37K"
+        },
+        {
+            "id" : 5,
+            "name" : "Long Black",
+            "img" : "../assets/americano.jpg",
+            "highlight" : "",
+            "description" : "Long Black is a type of coffee similar to an Americano but with a slightly different preparation method.",
+            "priceH" : 34000,
+            "priceC" : 39000,
+            "priceShow" : "Rp34K - 39K"
+        },
+        {
+            "id" : 6,
+            "name" : "Kopi Sanger",
+            "img" : "../assets/kopi-sanger.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 34000,
+            "priceC" : "",
+            "priceShow" : "Rp34K"
+        },
+        {
+            "id" : 7,
+            "name" : "Cappucino",
+            "img" : "../assets/cappucino.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Cappucino is a classic Italian coffee drink known for its balanced combination of espresso, steamed milk, and milk foam.",
+            "priceH" : 36000,
+            "priceC" : 41000,
+            "priceShow" : "Rp36K - 41K"
+        },
+        {
+            "id" : 8,
+            "name" : "Cafe Latte",
+            "img" : "../assets/cafe-latte.jpg",
+            "highlight" : "",
+            "description" : "Cafe Latte is a smooth and creamy coffee drink that offers a perfect balance between strong espresso and rich, velvety milk.",
+            "priceH" : 36000,
+            "priceC" : 41000,
+            "priceShow" : "Rp36K - 41K"
+        },
+        {
+            "id" : 9,
+            "name" : "Caramel Machiato",
+            "img" : "../assets/caramel-machiato.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Caramel Machiato is a popular coffee drink known for its sweet and creamy flavor, with a touch of espresso for depth.",
+            "priceH" : 36000,
+            "priceC" : 41000,
+            "priceShow" : "Rp36K - 41K"
+        },
+        {
+            "id" : 10,
+            "name" : "Dark Chocolate Mocha",
+            "img" : "../assets/dark-chocolate-mocha.jpg",
+            "highlight" : "",
+            "description" : "Dark Chocolate Mocha is a rich and indulgent coffee drink that combines the robust flavor of espresso with the deep, intense taste of dark chocolate.",
+            "priceH" : 40000,
+            "priceC" : 44000,
+            "priceShow" : "Rp40K - 44K"
+        }
+    ],
+
+    "flavourCoffee" : [
+        {
+            "id" : 1,
+            "name" : "Hazelnut Latte",
+            "img" : "../assets/flcoffee.png",
+            "highlight" : "",
+            "description" : "Hazelnut Latte is a rich and aromatic coffe beverage that combines the smoothness of espresso with the warm, nutty flavor of hazelnut syrup.",
+            "priceH" : 40000,
+            "priceC" : 44000,
+            "priceShow" : "Rp40K - 44K"
+        },
+        {
+            "id" : 2,
+            "name" : "Caramel Latte",
+            "img" : "../assets/flcoffee.png",
+            "highlight" : "",
+            "description" : "Caramel Latte is a deliciously sweet and creamy coffee drink that combines the bold flavor of espresso with the rich, buttery taste of caramel.",
+            "priceH" : 40000,
+            "priceC" : 44000,
+            "priceShow" : "Rp40K - 44K"
+        },
+        {
+            "id" : 3,
+            "name" : "Vanilla Latte",
+            "img" : "../assets/flcoffee.png",
+            "highlight" : "",
+            "description" : "Vanilla Latte is a classic, comforting drink that combines the smooth richness of espresso with the sweet, aromatic flavor of vanilla.",
+            "priceH" : 40000,
+            "priceC" : 44000,
+            "priceShow" : "Rp40K - 44K"
+        },
+        {
+            "id" : 4,
+            "name" : "Rum Latte",
+            "img" : "../assets/flcoffee.png",
+            "highlight" : "",
+            "description" : "Rum Latte is a bold and indulgent drink of espresso with the warmth of rum.",
+            "priceH" : 40000,
+            "priceC" : 44000,
+            "priceShow" : "Rp40K - 44K"
+        }
+    ],
+
+    "manualBrewed" : [
+        {
+            "id" : 1,
+            "name" : "V60",
+            "img" : "../assets/v60.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceC" : 32000,
+            "priceShow" : "Rp27K - 32K"
+        },
+        {
+            "id" : 2,
+            "name" : "Kopi Kapal Selam",
+            "img" : "../assets/kopi-kpl-selam.jpg",
+            "highlight" : "",
+            "description" : "Tubruk Coffee with D'Agro Syrup.",
+            "priceH" : 27000,
+            "priceC" : "",
+            "priceShow" : "Rp27K"
+        },
+        {
+            "id" : 3,
+            "name" : "Aeropress",
+            "img" : "../assets/aeropress.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceC" : 32000,
+            "priceShow" : "Rp27K - 32K"
+        },
+        {
+            "id" : 4,
+            "name" : "Kopi Tubruk By Nusakita",
+            "img" : "../assets/kopi-tubruk-nusakita.jpg",
+            "highlight" : "",
+            "description" : "Arabusta Premio / Robusta Classic",
+            "priceH" : 25000,
+            "priceC" : "",
+            "priceShow" : "Rp25K"
+        },
+        {
+            "id" : 5,
+            "name" : "Kopi Tubruk",
+            "img" : "../assets/kopi-tubruk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceC" : 32000,
+            "priceShow" : "Rp27K - 32K"
+        },
+        {
+            "id" : 6,
+            "name" : "Vietnam Drip",
+            "img" : "../assets/vietnam-drip.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceC" : 32000,
+            "priceShow" : "Rp27.000 - 32K"
+        }
+    ],
+
+    "dagroSignature" : [
+        {
+            "id" : 1,
+            "name" : "Ice D'Agro",
+            "img" : "../assets/ice-dagro.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Milk Coffee with D'Agro syrup.",
+            "priceH" : "",
+            "priceC" : 37000,
+            "priceShow" : "Rp37K"
+        },
+        {
+            "id" : 2,
+            "name" : "Ice Kinca",
+            "img" : "../assets/ice-kinca.jpg",
+            "highlight" : "",
+            "description" : "Milk Coffee with caramel sauce.",
+            "priceH" : "",
+            "priceC" : 32000,
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 3,
+            "name" : "Ice Asla",
+            "img" : "../assets/ice-asla.jpg",
+            "highlight" : "",
+            "description" : "Milk Coffee with honey syrup.",
+            "priceH" : "",
+            "priceC" : 32000,
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 4,
+            "name" : "Koffie Go",
+            "img" : "../assets/koffie-go.jpg",
+            "highlight" : "",
+            "description" : "Milk Coffee with creamy palm sugar.",
+            "priceH" : "",
+            "priceC" : 27000,
+            "priceShow" : "Rp27K"
+        },
+        {
+            "id" : 5,
+            "name" : "Ice Komandan",
+            "img" : "../assets/ice-komandan.jpg",
+            "highlight" : "",
+            "description" : "Milk Coffee with pandan syrup.",
+            "priceH" : "",
+            "priceC" : 32000,
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 6,
+            "name" : "Smooth Ice Coffee",
+            "img" : "../assets/smooth-ice-coffee.jpg",
+            "highlight" : "",
+            "description" : "Smooth Milk Coffee with palm sugar.",
+            "priceH" : "",
+            "priceC" : 32000,
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 7,
+            "name" : "Americano To the Moon",
+            "img" : "../assets/americano-to-moon.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Sparkling Ice Americano eith lemon syrup.",
+            "priceH" : "",
+            "priceC" : 42000,
+            "priceShow" : "Rp42K"
+        },
+        {
+            "id" : 8,
+            "name" : "D'Agro by Bottle",
+            "img" : "../assets/dagro-by-bottle.jpg",
+            "highlight" : "",
+            "description" : "D'Agro Coffee served by 250ml bottle.",
+            "priceH" : "",
+            "priceC" : 32000,
+            "priceShow" : "Rp32K"
+        },
+        {
+            "id" : 9,
+            "name" : "SIC by Bottle",
+            "img" : "../assets/sic-by-bottle.jpg",
+            "highlight" : "",
+            "description" : "Smooth Ice Coffee served by 250ml bottle.",
+            "priceH" : "",
+            "priceC" : 27000,
+            "priceShow" : "Rp27K"
+        }
+    ],
+
+    "chocolate" : [
+        {
+            "id" : 1,
+            "name" : "Chocolate Hazelnut",
+            "img" : "../assets/chocolate-huzelnut.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Chocolate Hazelnut drink is a luscious and indulgent beverage that beautifully combines the rich flavors of chocolate with the nutty essence of huzelnuts.",
+            "priceH" : 41000,
+            "priceC" : 45000,
+            "priceShow" : "Rp41K - 45K"
+        },
+        {
+            "id" : 2,
+            "name" : "Chocolate Classic",
+            "img" : "../assets/chocolate-classic.jpg",
+            "highlight" : "",
+            "description" : "Chocolate Classic drink is a rich and indulgent beverage that combines the deep, comforting flavors of cocoa with creamy textures.",
+            "priceH" : 41000,
+            "priceC" : 45000,
+            "priceShow" : "Rp41K - 45K"
+        },
+        {
+            "id" : 3,
+            "name" : "Chocolate Mint",
+            "img" : "../assets/chocolate-mint.jpg",
+            "highlight" : "",
+            "description" : "Chocolate Mint drink is a refreshing and indulgent beverage that perfectly marries the rich, velvety flavors of chocolate with the cool, invigorating taste of mint.",
+            "priceH" : 41000,
+            "priceC" : 45000,
+            "priceShow" : "Rp41K - 45K"
+        },
+        {
+            "id" : 4,
+            "name" : "Chocolate Rum",
+            "img" : "../assets/chocolate-rum.jpg",
+            "highlight" : "",
+            "description" : "Chocolate Rum drink is a decadent and flavorful cocktail that artfully blends the rich.",
+            "priceH" : 41000,
+            "priceC" : 45000,
+            "priceShow" : "Rp41K - 45K"
+        },
+        {
+            "id" : 5,
+            "name" : "Redvelvet Latte",
+            "img" : "../assets/redvelvet-latte.jpg",
+            "highlight" : "",
+            "description" : "Redvelvet Latte drink is a visually stunning and indulgent beverage that combines the rich flavors of red velvet cake with creamy milk.",
+            "priceH" : 41000,
+            "priceC" : 45000,
+            "priceShow" : "Rp41K - 45K"
+        }
+    ],
+
+    "frappe" : [
+        {
+            "id" : 1,
+            "name" : "Chocolatte Nutella Frappe",
+            "img" : "../assets/chocolate-nutella-frappe.jpg",
+            "highlight" : "",
+            "description" : "Chocolatte Nutella Frappe is a decadent and indulgent beverage that combines the rich flavors of chocolate with the creamy, hazelnut goodness of Nutella.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 2,
+            "name" : "Classic Chocolate Frappe",
+            "img" : "../assets/classic-chocolate-frappe.jpg",
+            "highlight" : "",
+            "description" : "Classic Chocolate Frappe is a deliciously redreshing beverage that combines the rich, intense flavors of chocolate with a creamy texture.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 3,
+            "name" : "Chocolatte Huzelnut Frappe",
+            "img" : "../assets/chocolate-hazelnut-frappe.jpg",
+            "highlight" : "",
+            "description" : "Chocolatte Huzelnut Frappe is a delicous and creamy beverage that combines rich chocolate and nutty huzelnut flavors.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 4,
+            "name" : "Chocolatte Mint Frappe",
+            "img" : "../assets/chocolate-mint-frappe.jpg",
+            "highlight" : "",
+            "description" : "Chocolatte Mint Frappe is a refreshing drink that combines the rich flavor of chocolate with the cool, fresh taste of mint.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 5,
+            "name" : "Chocolatte Rum Frappe",
+            "img" : "../assets/chocolate-rum-frappe.jpg",
+            "highlight" : "",
+            "description" : "Chocolatte Rum Frappe adds a decadent and boozy twist to the classic chocolate frappe.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 6,
+            "name" : "Redvelvet Frappe",
+            "img" : "../assets/redvelvet-latte-frappe.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Redvelvet Frappe is a luxurious, creamy drink inspired by the flavors of red velvet cake.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        },
+        {
+            "id" : 7,
+            "name" : "Greentea Matcha Frappe",
+            "img" : "../assets/greentea-matcha-frappe.jpg",
+            "highlight" : "",
+            "description" : "Greentea Matcha Frappe is a refreshing, creamy drink with the earthy flavor of matcha and a smooth, icy texture.",
+            "priceH" : "",
+            "priceC" : 52000,
+            "priceShow" : "Rp52K"
+        }
+    ],
+
+    "teaNusakita" : [
+        {
+            "id" : 1,
+            "name" : "Nusakita English Breakfast",
+            "img" : "../assets/nusakita-english-breakfast.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceC" : 25000,
+            "priceShow" : "Rp23K - 25K"
+        },
+        {
+            "id" : 2,
+            "name" : "Nusakita Blackcurrant",
+            "img" : "../assets/nusakita-blackcurrent.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceC" : 25000,
+            "priceShow" : "Rp23K - 25K"
+        },
+        {
+            "id" : 3,
+            "name" : "Nusakita Vanilla",
+            "img" : "../assets/nusakita-vanilla.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceC" : 25000,
+            "priceShow" : "Rp23K - 25K"
+        },
+        {
+            "id" : 1,
+            "name" : "Nusakita Lemon",
+            "img" : "../assets/nusakita-lemon.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceC" : 25000,
+            "priceShow" : "Rp23K - 25K"
+        }
+    ],
+
+    "yakultSeries" : [
+        {
+            "id" : 1,
+            "name" : "Lychee Yakult",
+            "img" : "../assets/lychee-yakult.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : "",
+            "priceC" : 35000,
+            "priceShow" : "Rp35K"
+        },
+        {
+            "id" : 2,
+            "name" : "Lemon Yakult",
+            "img" : "../assets/lemon-yakult.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : "",
+            "priceC" : 35000,
+            "priceShow" : "Rp35K"
+        },
+        {
+            "id" : 3,
+            "name" : "Peach Yakult",
+            "img" : "../assets/peach-yakult.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : "",
+            "priceC" : 35000,
+            "priceShow" : "Rp35K"
+        }
+    ],
+
+    "tea" : [
+        {
+            "id" : 1,
+            "name" : "Peach Flavored Tea",
+            "img" : "../assets/peach-flavoured-tea.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 30000,
+            "priceC" : 32000,
+            "priceShow" : "Rp30K - 32K"
+        },
+        {
+            "id" : 2,
+            "name" : "Lychee Flavored Tea",
+            "img" : "../assets/lychee-flavoured-tea.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 30000,
+            "priceC" : 32000,
+            "priceShow" : "Rp30K - 32K"
+        },
+        {
+            "id" : 3,
+            "name" : "Lemon Flavored Tea",
+            "img" : "../assets/lemon-flavoured-tea.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 30000,
+            "priceC" : 32000,
+            "priceShow" : "Rp30K - 32K"
+        },
+        {
+            "id" : 4,
+            "name" : "Tea Bag by Twinings",
+            "img" : "../assets/tea-bag-twinings.jpg",
+            "highlight" : "",
+            "description" : "English, Camomile, Earl Grey, Greentea, Peppermint",
+            "priceH" : 27000,
+            "priceC" : 32000,
+            "priceShow" : "Rp27K - 32K"
+        },
+        {
+            "id" : 5,
+            "name" : "Regular Ice Tea",
+            "img" : "../assets/regular-ice-tea.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : "",
+            "priceC" : 24000,
+            "priceShow" : "Rp24K"
+        },
+        {
+            "id" : 6,
+            "name" : "Greentea Matcha",
+            "img" : "../assets/greentea-matcha.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 41000,
+            "priceC" : 35000,
+            "priceShow" : "Rp35K - 41K"
+        },
+        {
+            "id" : 7,
+            "name" : "London Frog",
+            "img" : "../assets/london-frog.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Bergamot infuse with vanilla and milk foam.",
+            "priceH" : 39000,
+            "priceC" : "",
+            "priceShow" : "Rp39K"
+        },
+        {
+            "id" : 8,
+            "name" : "Thai Tea",
+            "img" : "../assets/thaitea.jpg",
+            "highlight" : "",
+            "description" : "Thai tea is a sweet and aromatic beverage traditionally made from strongly brewed black tea. It's typically sweetened with sugar and condensed milk and can be served hot or cold.",
+            "priceH" : 30000,
+            "priceC" : 32000,
+            "priceShow" : "Rp30K - 32K"
+        }
+    ],
+
+    "others" : [
+        {
+            "id" : 1,
+            "name" : "Fresh Milk",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 17000,
+            "priceShow" : "Rp17K"
+        },
+        {
+            "id" : 2,
+            "name" : "Fresh Milk Flavoured Hazelnut",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 22000,
+            "priceShow" : "Rp22K"
+        },
+        {
+            "id" : 3,
+            "name" : "Fresh Milk Flavoured Vanilla",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 22000,
+            "priceShow" : "Rp22K"
+        },
+        {
+            "id" : 4,
+            "name" : "Fresh Milk Flavoured Caramel",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 22000,
+            "priceShow" : "Rp22K"
+        },
+        {
+            "id" : 5,
+            "name" : "Fresh Milk Flavoured Mint",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 22000,
+            "priceShow" : "Rp22K"
+        },
+        {
+            "id" : 6,
+            "name" : "Fresh Milk Flavoured Pandan",
+            "img" : "../assets/fresh-milk.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 22000,
+            "priceShow" : "Rp22K"
+        },
+        {
+            "id" : 7,
+            "name" : "Pristine Mineral Water",
+            "img" : "../assets/pristine-water.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 15000,
+            "priceShow" : "Rp15K"
+        },
+        {
+            "id" : 8,
+            "name" : "Extra Syrup",
+            "img" : "../assets/gallery7.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 5000,
+            "priceShow" : "Rp5K"
+        },
+        {
+            "id" : 9,
+            "name" : "Extra Espresso",
+            "img" : "../assets/gallery7.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 5000,
+            "priceShow" : "Rp5K"
+        },
+        {
+            "id" : 10,
+            "name" : "Jeruk Peras",
+            "img" : "../assets/jeruk-peras.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceShow" : "Rp27K"
+        }
+    ], 
+
+    "snack" : [
+        {
+            "id" : 1,
+            "name" : "French Fries",
+            "img" : "../assets/french-fries.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceShow" : "Rp23K"
+        },
+        {
+            "id" : 2,
+            "name" : "French Fries with Sausage",
+            "img" : "../assets/french-fries-sausage.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 28000,
+            "priceShow" : "Rp28K"
+        },
+        {
+            "id" : 3,
+            "name" : "Dimsum",
+            "img" : "../assets/dimsum.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 23000,
+            "priceShow" : "Rp23K"
+        },
+        {
+            "id" : 4,
+            "name" : "Cireng Bumbu Rujak",
+            "img" : "../assets/cireng-rujak.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 25000,
+            "priceShow" : "Rp25K"
+        },
+        {
+            "id" : 5,
+            "name" : "Siomay",
+            "img" : "../assets/siomay.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 30000,
+            "priceShow" : "Rp30K"
+        },
+        {
+            "id" : 6,
+            "name" : "Pisang Goreng",
+            "img" : "../assets/pisang-goreng.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 25000,
+            "priceShow" : "Rp25K"
+        },
+        {
+            "id" : 7,
+            "name" : "Bakso",
+            "img" : "../assets/bakso.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 35000,
+            "priceShow" : "Rp35K"
+        },
+        {
+            "id" : 8,
+            "name" : "Almond Croissant",
+            "img" : "../assets/almond-croissant.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 30000,
+            "priceShow" : "Rp30K"
+        },
+        {
+            "id" : 9,
+            "name" : "Chocolate Croissant",
+            "img" : "../assets/chocolate-croissant.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 25000,
+            "priceShow" : "Rp25K"
+        },
+        {
+            "id" : 10,
+            "name" : "Plain Butter Croissant",
+            "img" : "../assets/plain-butter-croissant.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 15000,
+            "priceShow" : "Rp15K"
+        },
+        {
+            "id" : 11,
+            "name" : "Roti Mini",
+            "img" : "../assets/roti-mini.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 15000,
+            "priceShow" : "Rp15K"
+        }
+    ],
+
+    "deliciousPasta" : [
+        {
+            "id" : 1,
+            "name" : "Bolognese Pasta Ala D'Agro",
+            "img" : "../assets/bolognese-pasta.jpg",
+            "highlight" : "",
+            "description" : "With a choice of pasta spaghetti or fettucini.",
+            "priceH" : 58000,
+            "priceShow" : "Rp58K"
+        },
+        {
+            "id" : 2,
+            "name" : "Aglio E Olio Pasta Ala D'Agro With Chicken Katsu",
+            "img" : "../assets/aglio-chicken-katsu.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 55000,
+            "priceShow" : "Rp55K"
+        },
+        {
+            "id" : 3,
+            "name" : "Aglio E Olio Pasta Ala D'Agro With Tuna Chunks",
+            "img" : "../assets/aglio-tuna-chunks.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 58000,
+            "priceShow" : "Rp58K"
+        },
+        {
+            "id" : 4,
+            "name" : "Carbonara Pasta Ala D'Agro With Chicken Katsu",
+            "img" : "../assets/carbonara-chicken-katsu.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 58000,
+            "priceShow" : "Rp58K"
+        },
+        {
+            "id" : 5,
+            "name" : "Carbonara Pasta Ala D'Agro With Smoked Beef",
+            "img" : "../assets/carbonara-smoked-beef.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 58000,
+            "priceShow" : "Rp58K"
+        }
+    ],
+
+    "ricebowl" : [
+        {
+            "id" : 1,
+            "name" : "Ricebowl Chicken Teriyaki",
+            "img" : "../assets/ricebowl-chicken-teriyaki.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 40000,
+            "priceShow" : "Rp40K"
+        },
+        {
+            "id" : 2,
+            "name" : "Ricebowl Chicken Carbonara",
+            "img" : "../assets/ricebowl-chicken-carbonara.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 40000,
+            "priceShow" : "Rp40K"
+        },
+        {
+            "id" : 3,
+            "name" : "Ricebowl Chicken Blackpepper",
+            "img" : "../assets/ricebowl-chicken-blackpepper.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 40000,
+            "priceShow" : "Rp40K"
+        },
+        {
+            "id" : 4,
+            "name" : "Ricebowl Beef Blackpepper",
+            "img" : "../assets/ricebowl-beef-blackpepper.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 45000,
+            "priceShow" : "Rp45K"
+        },
+        {
+            "id" : 5,
+            "name" : "Ricebowl Beef Teriyaki",
+            "img" : "../assets/ricebowl-beef-teriyaki.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "priceH" : 45000,
+            "priceShow" : "Rp45K"
+        }
+    ],
+
+    "breakfastSeries" : [
+        {
+            "id" : 1,
+            "name" : "Omelette and Fries",
+            "img" : "../assets/omelette-fries.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Filling: Smoked beef, paprica, onion and mushroom.",
+            "priceH" : 38000,
+            "priceShow" : "Rp38K"
+        },
+        {
+            "id" : 2,
+            "name" : "Breakfast Package",
+            "img" : "../assets/breakfast-package.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Omelette and fries, and choice of tea drink.",
+            "priceH" : 50000,
+            "priceShow" : "Rp50K"
+        }
+    ]
+}

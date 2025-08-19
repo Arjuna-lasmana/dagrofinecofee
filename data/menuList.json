@@ -1,0 +1,88 @@
+{
+    "menuList" : [
+        {
+            "id" : 1,
+            "name" : "Espresso Based",
+            "link" : "../assets/cappucino.jpg",
+            "segment" : "espressoBased"
+        },
+        {
+            "id" : 2,
+            "name" : "Manual Brewed",
+            "link" : "../assets/kopi-tubruk-nusakita.jpg",
+            "segment" : "manualBrewed"
+        },
+        {
+            "id" : 3,
+            "name" : "Flavour Coffee",
+            "link" : "../assets/flcoffee.png",
+            "segment" : "flavourCoffee"
+        },
+        {
+            "id" : 4,
+            "name" : "Dagro Signature",
+            "link" : "../assets/koffie-go.jpg",
+            "segment" : "dagroSignature"
+        },
+        {
+            "id" : 5,
+            "name" : "Chocolate",
+            "link" : "../assets/chocolate-rum.jpg",
+            "segment" : "chocolate"
+        },
+        {
+            "id" : 6,
+            "name" : "Frappe",
+            "link" : "../assets/classic-chocolate-frappe.jpg",
+            "segment" : "frappe"
+        },
+        {
+            "id" : 7,
+            "name" : "Tea by Nusakita",
+            "link" : "../assets/nusakita-english-breakfast.jpg",
+            "segment" : "teaNusakita"
+        },
+        {
+            "id" : 8,
+            "name" : "Yakult Series",
+            "link" : "../assets/lychee-yakult.jpg",
+            "segment" : "yakultSeries"
+        },
+        {
+            "id" : 9,
+            "name" : "Tea",
+            "link" : "../assets/thaitea.jpg",
+            "segment" : "tea"
+        },
+        {
+            "id" : 10,
+            "name" : "Snack",
+            "link" : "../assets/dimsum.jpg",
+            "segment" : "snack"
+        },
+        {
+            "id" : 11,
+            "name" : "Delicious Pasta",
+            "link" : "../assets/gallery1.jpg",
+            "segment" : "deliciousPasta"
+        },
+        {
+            "id" : 12,
+            "name" : "Ricebowl",
+            "link" : "../assets/ricebowl-chicken-teriyaki.jpg",
+            "segment" : "ricebowl"
+        },
+        {
+            "id" : 13,
+            "name" : "Breakfast Series",
+            "link" : "../assets/breakfast-package.jpg",
+            "segment" : "breakfastSeries"
+        },
+        {
+            "id" : 14,
+            "name" : "Others",
+            "link" : "../assets/fresh-milk.jpg",
+            "segment" : "others"
+        }
+    ]
+}

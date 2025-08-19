@@ -1,0 +1,108 @@
+{
+    "menuHome" : [
+        {
+            "id" : 1,
+            "name" : "Cappucino",
+            "img" : "../assets/cappucino.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Cappucino is a classic Italian coffee drink known for its balanced combination of espresso, steamed milk, and milk foam.",
+            "priceH" : 36000,
+            "priceC" : 41000
+        },
+        {
+            "id" : 2,
+            "name" : "Doppio (Double Shot)",
+            "img" : "../assets/doppio.jpg",
+            "highlight" : "",
+            "description" : "Doppio is aterm used a double shot of espresso.",
+            "priceH" : 30000,
+            "priceC" : ""
+        },
+        {
+            "id" : 3,
+            "name" : "Caramel Machiato",
+            "img" : "../assets/caramel-machiato.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Caramel Machiato is a popular coffee drink known for its sweet and creamy flavor, with a touch of espresso for depth.",
+            "priceH" : 36000,
+            "priceC" : 41000
+        },
+        {
+            "id" : 4,
+            "name" : "Vietnam Drip",
+            "img" : "../assets/vietnam-drip.jpg",
+            "highlight" : "",
+            "description" : "",
+            "priceH" : 27000,
+            "priceC" : 32000
+        },
+        {
+            "id" : 5,
+            "name" : "Kopi Tubruk By Nusakita",
+            "img" : "../assets/kopi-tubruk-nusakita.jpg",
+            "highlight" : "",
+            "description" : "Arabusta Premio / Robusta Classic",
+            "priceH" : 25000,
+            "priceC" : ""
+        },
+        {
+            "id" : 6,
+            "name" : "Ice D'Agro",
+            "img" : "../assets/ice-dagro.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Milk Coffee with D'Agro syrup.",
+            "priceH" : "",
+            "priceC" : 37000
+        },
+        {
+            "id" : 7,
+            "name" : "Chocolate Hazelnut",
+            "img" : "../assets/chocolate-huzelnut.jpg",
+            "highlight" : "Best Seller",
+            "description" : "Chocolate Hazelnut drink is a luscious and indulgent beverage that beautifully combines the rich flavors of chocolate with the nutty essence of huzelnuts.",
+            "priceH" : 41000,
+            "priceC" : 45000
+        },
+        {
+            "id" : 8,
+            "name" : "Chocolate Mint",
+            "img" : "../assets/chocolate-mint.jpg",
+            "highlight" : "",
+            "description" : "Chocolate Mint drink is a refreshing and indulgent beverage that perfectly marries the rich, velvety flavors of chocolate with the cool, invigorating taste of mint.",
+            "priceH" : 41000,
+            "priceC" : 45000
+        },
+        {
+            "id" : 9,
+            "name" : "Bolognese Pasta Ala D'Agro",
+            "img" : "../assets/bolognese-pasta.jpg",
+            "highlight" : "",
+            "description" : "With a choice of pasta spaghetti or fettucini.",
+            "price" : 58000
+        },
+        {
+            "id" : 10,
+            "name" : "Ricebowl Chicken Teriyaki",
+            "img" : "../assets/ricebowl-chicken-teriyaki.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "price" : 40000
+        },
+        {
+            "id" : 11,
+            "name" : "Siomay",
+            "img" : "../assets/siomay.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "price" : 30000
+        },
+        {
+            "id" : 12,
+            "name" : "Almond Croissant",
+            "img" : "../assets/almond-croissant.jpg",
+            "highlight" : "Best Seller",
+            "description" : "",
+            "price" : 30000
+        }
+    ]
+}

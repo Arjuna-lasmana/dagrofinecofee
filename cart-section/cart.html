@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Agro Fine Coffee Jakarta</title>
+    <link rel="shortcut icon" href="../assets/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/19196b4a30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html" id="backToHome">
+                <img src="../assets/logo png.png" alt="logo">
+            </a>
+            <nav id="navMobile">
+                <button id="shop-mobile"><i class="fa-solid fa-bag-shopping"></i></button>
+            </nav>
+            <nav id="navLargeDevice">
+                <button id="shop">Shop<i class="fa-solid fa-bag-shopping"></i></button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="summary-section">
+                <div class="box">
+                    <h2>Summary</h2>
+                    <div class="order-detail">
+                        <h3>Order Detail</h3>
+                    </div>
+                    <div class="total">
+                        <h3>Total</h3>
+                        <h3 id="cart-total-mobile"></h3>
+                    </div>
+                    <p>Payment only with QRIS</p>
+                    <button id="checkout">Checkout</button>
+                </div>
+            </section>
+
+            <div class="wrapper">
+                <section id="cart-section">
+                    <div class="title">
+                        <h2 id="your-cart-h2">Your Cart</h2>
+                        <h2 id="quantity"></h2>
+                    </div>
+                    <div class="cart-items" id="cart-items"></div>
+                </section>
+    
+                <section id="summary-section-right">
+                    <div class="box">
+                        <h2>Summary</h2>
+                        <div class="order-detail">
+                            <h3>Order Detail</h3>
+                            <div class="products" id="products-summary"></div>
+                        </div>
+                        <div class="total">
+                            <h3>Total</h3>
+                            <h3 id="cart-total"></h3>
+                        </div>
+                        <p>Payment only with QRIS</p>
+                        <button id="checkout-right">Checkout</button>
+                    </div>
+                </section>
+            </div>
+
+            <section class="checkout-section">
+                <div class="box">
+                    <div class="top">
+                        <h2>Scan QR Code</h2>
+                        <button id="toggle-close"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="total">
+                        <h3>Total: </h3>
+                        <h3 id="price-checkout">Rp0</h3>
+                    </div>
+                    <img src="../assets/qr-picture.png" alt="QR Code QRIS">
+                    <button id="doneCheckout">I have already pay</button>
+                </div>
+            </section>
+
+            <div id="checkout-toast" class="toast hidden">
+                <p>Terima kasih sudah berbelanja!</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="top">
+                <h1>D'Agro Fine Coffee Jakarta</h1>
+            </div>
+
+            <div class="mid">
+                <div class="box contact">
+                    <h2>Contact Us</h2>
+                    <a href="https://wa.me/628118712349">+62 811-8712-349</a>
+                    <br>
+                    <a href="mailto:dagrofinecoffee818@gmail.com">dagrofinecoffee818@gmail.com</a>
+                    <p>Gedung Agro Plaza, Jl. H. R. Rasuna Said No.1 Lantai Dasar, RT.7/RW.4, Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12980.</p>
+                </div>
+                <div class="box">
+                    <h2>Link</h2>
+                    <div class="link">
+                        <a href="../index.html">Home</a>
+                        <a href="../shop-section/shop.html">Menu</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Follow Us</h2>
+                    <a href="https://www.instagram.com/d_agrofinecoffee?utm_source=ig_web_button_share_sheet&igsh=dmo3OW9jZmp2YzV3" target="_blank" id="ig-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <p>@d_agrocoffee</p>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <p>&copy; 2025 D'Agro Fine Coffee Jakarta.</p>
+                <p>All Right Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--! GSAP Animation -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <!-- ScrollSmoother requires ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script src="cartScript.js"></script>
+</body>
+</html>
