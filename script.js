@@ -111,11 +111,43 @@ const animationAllFunc = () => {
         })
     }
 
+    // Gallery Animation
+    const galleryAnimation = () => {
+        let split = SplitText.create(".gallery h2", {
+            type: "words, chars"
+        })
+
+        let menuTimeline = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".location",
+                start: "bottom 30%"
+            }
+        })
+        menuTimeline.from(split.chars, {
+            scaleX: "-1",
+            autoAlpha: 0,
+            duration: 0.7
+        })
+        menuTimeline.from(".wrapper-gallery #linkImg", {
+            y: "50px",
+            autoAlpha: 0,
+            duration: 0.6,
+            delay: 0.2,
+            stagger: 0.3
+        })
+        menuTimeline.from(".gallery #btn-follow", {
+            autoAlpha: 0,
+            delay: 0.2,
+            duration: 0.7
+        })
+    }
+
     master
         .add(taglineAnimation())
         .add(aboutAnimation())
         .add(menuAnimation())
         .add(locationAnimation())
+        .add(galleryAnimation())
 
 }
 
@@ -168,55 +200,6 @@ const navigateToSection = () => {
     galleryToggleMobile.addEventListener("click", () => scrollToSection("gallery"))
 }
 
-// ? Function of Get Image in Gallery Section
-const getImageFunc = async() => {
-    try {
-        const result = await fetch("./data/gallery.json")
-        const { image } = await result.json()
-        let wrapperGallery = document.querySelector(".wrapper-gallery")
-        
-        let showData = ""
-        image.forEach(data => {
-            showData += `<a id="linkImg" href="${data.link}" target="_blank">
-                <img id="img" src="${data.img}" loading="lazy">
-            </a>`
-        })
-        wrapperGallery.innerHTML = showData;
-    } catch(err) {
-        console.log(err)
-    }
-}
-// Gallery Animation
-const galleryAnimation = () => {
-    let split = SplitText.create(".gallery h2", {
-        type: "words, chars"
-    })
-
-    let menuTimeline = gsap.timeline({
-        scrollTrigger: {
-            trigger: ".location",
-            start: "bottom 30%"
-        }
-    })
-    menuTimeline.from(split.chars, {
-        scaleX: "-1",
-        autoAlpha: 0,
-        duration: 0.7
-    })
-    menuTimeline.from(".wrapper-gallery #linkImg", {
-        y: "50px",
-        autoAlpha: 0,
-        duration: 0.6,
-        delay: 0.2,
-        stagger: 0.3
-    })
-    menuTimeline.from(".gallery #btn-follow", {
-        autoAlpha: 0,
-        delay: 0.2,
-        duration: 0.7
-    })
-}
-
 // ? Function navigate to Maps
 const navigateMapsFunc = () => {
     const toggleLocation = document.getElementById("btn-location")
@@ -244,8 +227,5 @@ const navDetailFunc = () => {
 animationAllFunc();
 navigateToSection();
 navigateShopFunc()
-getImageFunc().then(() => {
-    galleryAnimation()
-});
 navDetailFunc();
 navigateMapsFunc();
