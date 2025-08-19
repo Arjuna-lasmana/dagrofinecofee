@@ -469,6 +469,20 @@ const searchFunc = async () => {
     input.addEventListener("input", onInput);
 };
 
+// ? Footer menu navigation
+const footerMenuNavigationFunc = () => {
+    document.getElementById("menu-btn").addEventListener("click", () => {
+        const section = document.querySelector(".products")
+        if(section) {
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: { y: section, offsetY: 50},
+                ease: "power3.out"
+            })
+        }
+    })
+}
+
 // ! Execute code
 document.addEventListener("DOMContentLoaded", () => {
     const totalQuantity = JSON.parse(localStorage.getItem("number") || "0");
@@ -482,3 +496,4 @@ showAllProducts().then(() => {
     productAnimation()
 });
 searchFunc()
+footerMenuNavigationFunc()

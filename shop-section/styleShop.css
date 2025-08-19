@@ -457,30 +457,31 @@ footer .mid {
 footer .mid .contact {
     width: 80%;
 }
-footer .mid .box h2 {
+footer .mid .box-fo h2 {
     font-size: 18px;
     margin-bottom: 10px;
 }
-footer .mid .box a {
+footer .mid .box-fo a {
     text-decoration: none;
     color: var(--light-gray);
     font-weight: 300;
     font-size: 13px;
+    cursor: pointer;
     transition: color .3s ease-in-out;
 }
-footer .mid .box a:hover {
+footer .mid .box-fo a:hover {
     color: var(--orange);
 }
-footer .mid .box p {
+footer .mid .box-fo p {
     font-size: 13px;
 }
-footer .mid .box .link{
+footer .mid .box-fo .link{
     display: flex;
     width: fit-content;
     flex-direction: column;
     gap: 3px;
 }
-footer .mid .box #ig-icon {
+footer .mid .box-fo #ig-icon {
     font-size: 30px;
 }
 footer .bottom {
